@@ -1,0 +1,96 @@
+import React from 'react'
+import Sidebar from './layout/Sidebar'
+import AdminNavbar from './layout/AdminNavbar'
+import { Link } from 'react-router-dom'
+
+function ViewPaperDetail() {
+  return (
+    
+    <div id="wrapper">
+      <Sidebar />
+      <div id="content-wrapper" className="d-flex flex-column">
+        <div id="content">
+          <AdminNavbar />
+
+          <div className="container-fluid">
+            <div className="titlebar">
+              <h3>Paper Detail</h3>
+            </div>
+            <div className="row justify-content-center align-items-center">
+              <div className="col-5">
+                <div className="row">
+                  <div className="col-7">
+                    <div className="profile-detail">
+                      <div className="text-capitalize mb-2 fw-bold text-green">
+                        SR
+                      </div>
+                      <div className="text-capitalize mb-2 fw-bold text-green">
+                        Total Number of Paper
+                      </div>
+                      <div className="text-capitalize mb-2 fw-bold text-green">
+                        Easy
+                      </div>
+                      <div className="text-capitalize mb-2 fw-bold text-green">
+                        Medium
+                      </div>
+                      <div className="text-capitalize mb-2 fw-bold text-green">
+                        Hard
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-5">
+                    <div className="profile-detail">
+                      <div className="mb-2 text-black fw-bold">1</div>
+                      <div className="mb-2 text-black fw-bold">5</div>
+                      <div className="mb-2 text-black fw-bold">1</div>
+                      <div className="mb-2 text-black fw-bold">2</div>
+                      <div className="mb-2 text-black fw-bold">2</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-5">
+                <Link to="/editquestion" className="tableviewbtn mb-3">
+                  Edit
+                </Link>
+              </div>
+
+              <div className="col-12 mt-5">
+                <div className="bg-grey d-flex justify-content-around p-1 mb-2">
+                  <div>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </div>
+                  <div className="text-green">Easy</div>
+                </div>
+                <div className="bg-grey d-flex justify-content-around p-1 mb-2">
+                  <div>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </div>
+                  <div className="text-green">Easy</div>
+                </div>
+                <div className="bg-grey d-flex justify-content-around p-1 mb-2">
+                  <div>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </div>
+                  <div className="text-green">Easy</div>
+                </div>
+                <div className="bg-grey d-flex justify-content-around p-1 mb-2">
+                  <div>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                  </div>
+                  <div className="text-green">Easy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default ViewPaperDetail

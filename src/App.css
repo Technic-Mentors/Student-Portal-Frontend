@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url("./adobeFont/AdobeClean-Regular.woff2") format('woff2'),
+        url('./adobeFont/AdobeClean-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('./adobeFont/AdobeClean-Bold.woff2') format('woff2'),
+        url('./adobeFont/AdobeClean-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    padding: 0 150px;
+    font-family: 'Adobe Clean', sans-serif !important;
+}
+
+h1 {
+    font-family: 'Adobe Clean', sans-serif !important;
+}

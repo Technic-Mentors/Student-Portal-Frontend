@@ -1,0 +1,488 @@
+body {
+    font-family: 'Monstrate';
+    padding: 0 150px;
+}
+
+.mt-5 {
+    margin-top: 4rem !important;
+}
+
+.mt-10 {
+    margin-top: 1rem;
+}
+
+.py-6 {
+    padding: 184px 0;
+}
+.py-7 {
+    padding: 150px 0;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Aristotelica Display Trial DemiBold';
+}
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-green {
+    color: #4dab54;
+}
+
+.input-border {
+    border: 1px solid #00ad5b;
+}
+
+.bg-green {
+    background: #4dab54;
+}
+
+.nav-link {
+    color: white !important;
+
+}
+
+.bg-grey {
+    background: rgb(233, 233, 233);
+    padding: 2rem 0;
+}
+
+.navIcon i {
+    display: none;
+}
+
+@media (min-width:700px) {
+
+    .nav-item:hover .navIcon i,
+    .active .navIcon i {
+        margin-top: -10px;
+        display: initial;
+    }
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbarNav {
+    position: relative;
+}
+
+.navbarNav::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border: 2px dashed white;
+    bottom: 0;
+}
+
+.copyRight {
+    color: #4dab54;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.footer {
+    color: #4dab54;
+
+    h4 {
+        color: #4dab54;
+        font-weight: 600;
+        font-family: 'Aristotelica Display Trial DemiBold';
+    }
+
+    ul {
+        margin: 0px !important;
+        padding: 0;
+
+        li {
+            list-style: none;
+            line-height: 20px;
+            font-size: 12px;
+            font-weight: bold;
+
+            .fas {
+                color: #4dab54;
+            }
+        }
+    }
+
+    a {
+        color: #00ad5b !important;
+        margin-left: 10px;
+    }
+
+    .input-group-addon {
+        color: #ffffff !important;
+        background-color: #4dab54;
+        border: 1px solid #4dab54;
+    }
+
+    p {
+        span {
+            .fa {
+                color: #4dab54;
+            }
+        }
+    }
+}
+
+.foter-bottom {
+    background-color: #4dab54;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+}
+
+.footer-img {
+    display: block;
+    text-align: center;
+}
+
+.section-head {
+    text-align: center;
+    // margin: 3rem;
+
+    h3 {
+        font-family: 'Aristotelica Display Trial DemiBold';
+        color: black;
+        text-transform: capitalize;
+        font-weight: 700;
+        border-bottom: 5px solid #4dab54;
+        padding: 1rem;
+        display: -webkit-inline-box;
+    }
+
+    p {
+        text-align: center;
+        color: grey;
+    }
+}
+
+.contact-head {
+
+    h3 {
+        font-family: 'Aristotelica Display Trial DemiBold';
+        color: black;
+        text-transform: capitalize;
+        font-weight: 700;
+        border-bottom: 5px solid #4dab54;
+        padding: 1rem;
+        display: -webkit-inline-box;
+    }
+
+    p {
+        color: grey;
+    }
+}
+
+.services {
+    margin-bottom: 5rem;
+
+    img {
+        width: 40%;
+    }
+}
+
+.trial-btn {
+    margin-bottom: 1rem;
+
+    button {
+        background: #4dab54;
+        border-radius: 2rem;
+        padding: 1rem 5rem;
+        color: #ffffff;
+        font-size: large;
+    }
+}
+
+.border {
+    width: 100%;
+    height: 1rem;
+    background: #4dab54;
+}
+
+.footerBorder {
+    width: 100%;
+    height: 2px;
+    margin-top: 7px;
+    background: #4dab54;
+}
+
+.socialLinks i {
+    font-size: 25px;
+    margin-top: 25%;
+    color: white;
+    background-color: #4dab54;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.titlebar {
+    background-color: #4dab54;
+    color: #ffffff;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.profile-info {
+    border: 3px solid #4dab54;
+    padding: 1rem;
+}
+
+.editbtn {
+    background-color: #4dab54;
+    color: #ffffff;
+    border: 1px solid #4dab54;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.viewbtn {
+    background-color: #ffffff;
+    color: #4dab54;
+    border: 1px solid #4dab54;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.qtsList {
+
+    color: #4dab54;
+    border: 2px solid #4dab54;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.selected {
+
+    background-color: #4dab54 !important;
+    color: #ffffff !important;
+}
+
+.deselected {
+
+    border: 2px solid red;
+    background-color: red !important;
+    color: #ffffff !important;
+}
+
+// radio button
+.ans {
+    label {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .card-input-element+.card {
+        height: calc(36px + 2*1rem);
+        color: #4dab54;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid transparent;
+        border-radius: 4px;
+    }
+
+    .card-input-element+.card:hover {
+        cursor: pointer;
+    }
+
+    .card-input-element:checked+.card {
+        background-color: #4dab54 !important;
+        color: #ffffff !important;
+        -webkit-transition: border .3s;
+        -o-transition: border .3s;
+        transition: border .3s;
+    }
+
+    @-webkit-keyframes fadeInCheckbox {
+        from {
+            opacity: 0;
+            -webkit-transform: rotateZ(-20deg);
+        }
+
+        to {
+            opacity: 1;
+            -webkit-transform: rotateZ(0deg);
+        }
+    }
+
+    @keyframes fadeInCheckbox {
+        from {
+            opacity: 0;
+            transform: rotateZ(-20deg);
+        }
+
+        to {
+            opacity: 1;
+            transform: rotateZ(0deg);
+        }
+    }
+}
+
+.freetrial {
+    border-radius: 50px;
+    border: 1px solid #4dab54;
+    background: #4dab54;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    &__white {
+        border: 1px solid #ffffff;
+    }
+
+    &:hover {
+        background: #ffffff;
+        border: 1px solid #4dab54;
+        color: #4dab54;
+    }
+}
+
+.bannertitle {
+    padding: 5rem;
+
+    h1 {
+        color: #00ad5b;
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-family: 'Aristotelica Display Trial DemiBold';
+    }
+
+    h2 {
+        color: #00ad5b;
+        text-transform: uppercase;
+        font-family: 'Aristotelica Display Trial DemiBold';
+    }
+
+    h3 {
+        color: #00ad5b;
+        text-transform: uppercase;
+        border-bottom: 2px solid #00ad5b;
+        padding-bottom: 1rem;
+        display: -webkit-inline-box;
+        font-family: 'Aristotelica Display Trial DemiBold';
+    }
+
+    ul {
+        li {
+            margin-bottom: 1rem;
+            list-style: circle;
+
+            &::marker {
+                color: #00ad5b;
+            }
+        }
+    }
+
+    form {
+        label {
+            color: #00ad5b;
+        }
+    }
+}
+
+.learning {
+    background-color: #4dab54;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+
+    p {
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+}
+
+.video {
+    iframe {
+        height: 625px;
+    }
+}
+
+.question-list {
+    display: flex;
+    justify-content: space-evenly;
+
+    span {
+        color: #4dab54;
+        margin-right: 2rem;
+    }
+
+    .elippse {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+//pie chart 
+.pie-chart {
+    background:
+        radial-gradient(circle closest-side,
+            transparent 100%,
+            white 0),
+        conic-gradient(from 180deg,
+            #ea0029 0,
+            #ea0029 32.2%,
+            #333333 0,
+            #333333 32.2%,
+            #4d4d4d 0,
+            #4d4d4d 33%,
+            #808080 0,
+            #808080 34.1%,
+            white 0,
+            white 36.6%,
+            #666666 0,
+            #666666 100%);
+    position: relative;
+    width: 500px;
+    min-height: 350px;
+    margin: 0;
+}
+
+.pie-chart figcaption {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: smaller;
+    text-align: right;
+}
+
+.pie-chart span:after {
+    display: inline-block;
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.4em;
+    height: 0.8em;
+    border-radius: 0.2em;
+    background: currentColor;
+}
+
+// end pie chart
+.loginType {
+    box-shadow: 0 0 20px rgb(214, 214, 214);
+}
